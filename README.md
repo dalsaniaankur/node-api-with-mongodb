@@ -12,23 +12,6 @@ This project is a Node.js backend API that provides authentication and CRUD oper
 - File upload support for profile photos
 - CORS enabled for cross-origin requests
 
-## Folder Structure
-
-```
-node-backend-api
-├── src
-│   ├── controllers          # Contains controller files for handling requests
-│   ├── models               # Contains Mongoose models for MongoDB
-│   ├── routes               # Contains route definitions
-│   ├── middlewares          # Contains middleware for authentication and authorization
-│   ├── utils                # Contains utility functions, such as database connection
-│   ├── app.js               # Initializes the Express application
-│   └── server.js            # Starts the server and connects to the database
-├── package.json             # Project configuration and dependencies
-├── .env                     # Environment variables
-└── README.md                # Project documentation
-```
-
 ## Installation
 
 1. Clone the repository:
@@ -52,7 +35,7 @@ node-backend-api
 
 1. Start the server:
    ```
-   npm start
+   npm run dev
    ```
 
 2. The API will be running on `http://localhost:3000`.
@@ -88,4 +71,3 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ## License
 
 This project is licensed under the MIT License.
-(initialize backend API with user and post management, role-based access control, and environment configuration)
