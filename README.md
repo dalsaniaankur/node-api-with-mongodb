@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# node-api-with-mongodb
-=======
 # Node Backend API
 
 This project is a Node.js backend API that provides authentication and CRUD operations for users, employees, and posts. It is built using Express and MongoDB, and it supports role-based access control for different user roles: User, Admin, and Manager.
@@ -11,7 +8,6 @@ This project is a Node.js backend API that provides authentication and CRUD oper
 - Role-based access control
 - CRUD operations for:
   - Users
-  - Employees
   - Posts
 - File upload support for profile photos
 - CORS enabled for cross-origin requests
@@ -92,4 +88,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ## License
 
 This project is licensed under the MIT License.
->>>>>>> 00ebebc (initialize backend API with user and post management, role-based access control, and environment configuration)
+(initialize backend API with user and post management, role-based access control, and environment configuration)
